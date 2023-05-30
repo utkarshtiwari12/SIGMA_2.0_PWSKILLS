@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!-- Que - 3
+Create a navigation bar similar to question 1. For each navigation item use a different border style. -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <style>
+        ul li{
+            display: inline;
+            padding: 30px;
+        }
+        ul a{
+            color: #ffffff;
+            cursor: pointer;
+        }
+        ul a:hover{
+            color: #ec1ecd;
+        }
+        nav{
+            background-color: #4c85d4;
+            padding: 20px 30px;
+        }
+        ul li:nth-child(1)
+        {
+            border-style: dashed;
+        }
+        ul li:nth-child(2)
+        {
+            border-style:dotted;
+        }
+        ul li:nth-child(3)
+        {
+            border-style:double;
+        }
+        ul li:nth-child(4)
+        {
+            border-style:groove;
+        }
+        ul li:nth-child(5)
+        {
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

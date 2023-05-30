@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- Que - 9
+Create a web page with a registration form, using the CSS attribute selector change the text color of each input field to any other color. -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 9</title>
+    <style>
+        input[id="username"] {
+            color:#ac20e8
+        }
+        input[id="password"] {
+            color:#ba1ea0
+        }
+        input[id="male"] {
+            color:#37d8ea
+        }
+        input[id="female"] {
+            color:#e1b515
+        }
+        input[id="email"] {
+            color:#570306
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <label for="username">username</label>
+            <input type="text" name="username" id="username"> <br />
+            <label for="email">email</label>
+            <input type="email" name="email" id="email"> <br />
+            <label for="password">password</label>
+            <input type="password" name="password" id="password"> <br />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male"> <br />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female"> <br />
+
+            <button type="submit">submit</button>
+        </form>
+    </main>
+</body>
+</html>
