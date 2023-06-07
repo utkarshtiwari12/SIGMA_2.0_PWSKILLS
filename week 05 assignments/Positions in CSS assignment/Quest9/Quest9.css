@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+    background-color: #f56969;
+    padding: 20px;
+    margin: 10px;
+    font-size: 18px;
+    width: 300px;
+    cursor: pointer;
+}
+div{
+    overflow-y: scroll;
+    max-height: 200px;
+    overflow-x: unset;
+    width: 298px;
+    border: 1px solid #b4aeae;
+    margin-left: 10px;
+    border-top: none;
+    margin-top: -10px;
+    opacity: 0;
+}
+.options p{
+    margin: 25px 20px;
+    font-size: 18px;
+}
+button:hover + div {
+    opacity: 1;
+  }

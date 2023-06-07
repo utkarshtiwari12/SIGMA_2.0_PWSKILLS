@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2c2b2b;
+    color: #c1c3c6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.content{
+    text-align: left;
+}
+.offer{
+    position: sticky;
+    top: 5px;
+    padding: 15px ;
+    background-color: #e66262;
+}
+.offer h2{
+    background-color: #e66262;
+    color: #171717;
+    font-size:large;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #cf682c;
+}
+img{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+p{
+    font-size: 17px;
+    font-weight:500 ;
+}

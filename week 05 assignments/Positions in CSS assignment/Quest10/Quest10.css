@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .modal{
+    position: fixed;
+    top: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 60vw;
+    margin-left: 20vw;
+    height: 70vh;
+    text-align: center;
+  }
+  .bg-content h1{
+    margin: 20px 10px;
+  }
+  .modal h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  button{
+    border: none;
+    float: left;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #6b44ed;
+    color: #fff;
+  }
+  .black-bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+  .modal article{
+    max-height: 65%;
+    overflow-y: scroll;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .checkbox{
+    margin-left: -480px;
+    margin-top: 10px;
+  }

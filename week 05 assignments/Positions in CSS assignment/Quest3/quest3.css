@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+img{
+    width: 150px;
+    margin-left: 70px;
+}
+.names{
+    color: #3955d4;
+    font-weight: bold;
+    float: left;
+}
+.image{
+    margin-bottom: 30px;
+}
+.details{
+    margin-left: 150px;
+}
+main{
+    margin-left: 10px;
+    padding-left: 5px;
+    border: 2px solid black;
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+    border: 5px solid black;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: relative;
+}
+header{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+div{
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+img{
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+}
+.pok1 {
+    text-align: center;
+    margin-left: 10px;
+    background-color: #3393ed;
+    position: absolute;
+}
+.pok2 {
+    text-align: center;
+    background-color: #31ae31;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 100px;
+}
+.pok3 {
+    text-align: center;
+    background-color: #ffff20;
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 200px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+div:hover{
+    z-index: 5;
+}
