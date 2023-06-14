@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #1a2024;
+    color: #e8e3e3;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    width: 20vw;
+    height: 40vh;
+    margin:50px 50px 0px 100px;
+}
+.img-info .ISO{
+    height: 150px;
+    margin: 30px 0px;
+}
+a{
+    text-decoration: none;
+    color: #e8e3e3;
+}
+.pwskills-nav a{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+}
+.products-nav a{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+}
+h2{
+    width: 175px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-bottom: 2px solid #f6a754;
+}
+.pwskills-nav{
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+    flex-wrap: wrap;
+}

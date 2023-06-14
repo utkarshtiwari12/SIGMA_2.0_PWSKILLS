@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #202124;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    margin-top: 30vh;
+    margin-right: 45vw;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+.image{
+    position: absolute;
+}
+.image1{
+    z-index: 4;
+}
+.image2{
+    left: 150px;
+    z-index: 3;
+}
+.image3{
+    left: 300px;
+    z-index: 2;
+}
+.image4{
+    left: 450px;
+    z-index: 1;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-between;
+}
+img{
+    width: 23vw;
+    height: 250px;
+    border: 3px solid black;
+}
