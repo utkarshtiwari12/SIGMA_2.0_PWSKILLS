@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 8vh;
+    padding: 0 10px;
+}
+nav > .icon > img{
+    width: 12%;
+    height: 100%;
+    object-fit: cover;
+}
+nav > .nav-links > ul > li{
+    list-style-type: none;
+}
+nav > .nav-links{
+    align-self: center;
+}
+nav > .nav-links > ul > li > a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+}
+nav > .nav-links > ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+nav > .login-button{
+    align-self: center;
+    justify-self: end;
+}
+nav > .login-button > button{
+    border: none;
+    background-color: #51cf5a;
+    font-weight: bolder;
+    padding: 8px 50px;
+    border-radius: 5px;
+}
+.container{
+    display: grid;
+    height: 90vh;
+    margin: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.details{
+    align-self: center;
+    padding: 0 10%;
+}
+.details > p{
+    margin: 7% 0;
+    color: #646464;
+}
+.details > button{
+    border: none;
+    padding: 8px 40px;
+    background-color: #000;
+    color: #fff;
+}
+.sample-image > img{
+    width: 100%;
+    height: 100%;
+}
+
+.swiggy-footer{
+    height: 60vh;
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #2b1f17;
+}
+.swiggy-footer > div{
+    text-align: center;
+    height: 100%;
+    margin-left: 10%;
+}
+.swiggy-footer > div > img{
+    width: 80%;
+    height: 70%;
+}
+.swiggy-footer > div > h3{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.swiggy-footer > div > p{
+    color: #786549;
+    margin-top: 20px;
+}
+.features{
+    display: grid;
+    height: 35vh;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 10px 10px;
+    grid-column-gap: 110px;
+}
+.features > div{
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+.features > div > img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.features > div > h2{
+    margin:10px 0 10px 50px;
+}
+.features > div > p{
+    margin-left: 50px;
+    color: #4f4f4f;
+}
