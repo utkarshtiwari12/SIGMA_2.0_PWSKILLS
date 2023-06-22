@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+h1{
+    color: #c9d4e1;
+    padding: 20px;
+}
+.container{
+    width: 90vw;
+    margin: 30px auto;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
+/* table design for small screens */
+@media screen and (max-width: 576px){
+    .container{
+    max-width: 90%;
+    overflow-x: scroll;
+    }
+    td, th{
+        min-width: 260px;
+    }
+}
