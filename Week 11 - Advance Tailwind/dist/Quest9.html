@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 9</title>
+
+    <!-- font-awesome cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- linking css file -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- header section starts here  -->
+
+    <header
+      class="w-screen h-auto flex justify-between items-center bg-[#202324] px-4 py-2"
+    >
+      <div class="flex items-center gap-2">
+        <img src="./media/logo-img.png" alt="logo-img" />
+        <h1 class="text-white font-semibold text-2xl">LIQUID</h1>
+      </div>
+
+      <div class="hidden md:flex items-center gap-2">
+        <button class="text-white font-bold bg-[#FC5B3F] py-2 px-4 rounded">
+          CREATE ACCOUNT
+        </button>
+        <img src="./media/acc-logo.png" alt="acc-logo" />
+      </div>
+
+      <div class="md:hidden flex items-center">
+        <i class="fa-solid fa-bars text-white scale-125"></i>
+      </div>
+    </header>
+
+    <!-- header section ends here  -->
+
+    <!-- main/hero section starts here -->
+
+    <div
+      class="w-screen h-screen px-2 md:px-6 py-4 md:py-6 bg-[#202324] md:flex overflow-hidden"
+    >
+      <div
+        class="w-full md:w-1/2 md:flex justify-center flex-col md:ml-12 px-4"
+      >
+        <h1 class="text-white md:text-8xl font-semibold mb-10 text-7xl">
+          Multi-regulated global broker.
+        </h1>
+        <p class="text-gray-400 md:text-lg">
+          A trusted destination for traders worldwide,
+        </p>
+        <p class="text-gray-400 md:text-lg">
+          Authorised by FCA, ASIC &amp; FSCA
+        </p>
+
+        <div
+          class="text-white w-full md:w-52 flex items-center justify-center py-2 font-semibold border-2 border-[#FC5B3F] rounded mt-10 animate-bounce"
+        >
+          DISCOVER ACCOUNTS
+        </div>
+      </div>
+
+      <img
+        class="w-full md:w-1/2"
+        src="./media/hero-image.png"
+        alt="main-img"
+      />
+
+      <!-- main/hero section ends here -->
+    </div>
+
+    <!-- statistical information section starts here -->
+
+    <div
+      class="w-screen h-screen md:h-auto md:p-4 bg-[#202324] flex items-center justify-center"
+    >
+      <div
+        class="w-[60%] md:w-full flex justify-between flex-col md:flex-row md:px-4 gap-10"
+      >
+        <div
+          class="flex w-full md:w-[20%] gap-6 md:gap-4 mt-10 md:mt-0 items-center"
+        >
+          <img
+            class="w-[40%] h-12 object-fill"
+            src="./media/alphabet.png"
+            alt="alphabet-logo"
+          />
+          <button
+            class="w-[60%] text-black font-bold bg-green-400 h-10 px-4 rounded-md"
+          >
+            <sup>&and;</sup> 1,740.05
+          </button>
+        </div>
+
+        <div
+          class="flex w-full md:w-[20%] gap-6 md:gap-4 mt-10 md:mt-0 items-center"
+        >
+          <img
+            class="w-[40%] h-12 object-fill"
+            src="./media/microsoft.png"
+            alt="alphabet-logo"
+          />
+          <button
+            class="w-[60%] text-black font-bold bg-green-400 h-10 px-4 rounded-md"
+          >
+            <sup>&and;</sup> 1,740.05
+          </button>
+        </div>
+
+        <div
+          class="flex w-full md:w-[20%] gap-6 md:gap-4 mt-10 md:mt-0 items-center"
+        >
+          <img
+            class="w-[40%] h-12 object-fill"
+            src="./media/facebook.png"
+            alt="alphabet-logo"
+          />
+          <button
+            class="w-[60%] text-black font-bold bg-red-400 h-10 px-4 rounded-md"
+          >
+            <sub>&or;</sub> 1,740.05
+          </button>
+        </div>
+
+        <div
+          class="flex w-full md:w-[20%] gap-6 md:gap-4 mt-10 md:mt-0 items-center"
+        >
+          <img
+            class="w-[40%] h-12 object-fill"
+            src="./media/amazon.png"
+            alt="alphabet-logo"
+          />
+          <button
+            class="w-[60%] text-black font-bold bg-green-400 h-10 px-4 rounded-md"
+          >
+            <sup>&and;</sup> 1,740.05
+          </button>
+        </div>
+
+        <div
+          class="flex w-full md:w-[20%] gap-6 md:gap-4 mt-10 md:mt-0 items-center"
+        >
+          <img
+            class="w-[40%] h-12 object-fill scale-125"
+            src="./media/tesla.png"
+            alt="alphabet-logo"
+          />
+          <button
+            class="w-[60%] text-black font-bold bg-red-400 h-10 px-4 rounded-md"
+          >
+            <sub>&or;</sub> 1,740.05
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- statistical information section ends here -->
+
+    <!-- blog-cards section starts here -->
+
+    <div class="w-screen bg-gray-950 md:pb-20">
+      <div
+        class="h-[12%] md:h-1/5 pt-2 md:pt-8 w-full px-2 md:px-6 flex justify-between items-center pb-10 md:pb-20"
+      >
+        <div class="w-[60%] md:w-[40%] h-full">
+          <h1 class="text-white font-semibold text-2xl md:text-4xl">
+            Save time. Get<span class="text-[#FC5B3F]"> higher return.</span>
+          </h1>
+          <h1 class="text-white font-semibold text-2xl md:text-4xl">
+            Multiply wealth.
+          </h1>
+        </div>
+
+        <div
+          class="w-[40%] md:w-[15%] border-2 rounded border-[#FC5B3F] h-full md:h-[70%] flex items-center justify-center text-white"
+        >
+          FIND OUT MORE &gt;
+        </div>
+      </div>
+
+      <div class="md:flex justify-evenly md:h-4/5 w-full">
+        <!-- card-1 -->
+
+        <div
+          class="w-full md:w-[30%] h-[65%] md:h-[75%] bg-[#202324] pl-10 pb-10 md:rounded-lg overflow-hidden"
+        >
+          <img
+            class="h-[50%] w-full md:rounded-tr-lg"
+            src="./media/card1-img.png"
+            alt="card1-img"
+          />
+          <h1 class="text-white my-10 text-4xl md:text-5xl">Various assets</h1>
+          <p class="max-w-[70%] text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi
+            laudantium excepturi eaque iste itaque vero officia nostrum quam.
+            Ad?
+          </p>
+        </div>
+
+        <!-- card-2 -->
+
+        <div
+          class="w-full md:w-[30%] h-[65%] md:h-[75%] bg-[#202324] pl-10 pb-10 md:rounded-lg overflow-hidden"
+        >
+          <img
+            class="h-[50%] w-full md:rounded-tr-lg"
+            src="./media/card2-img.png"
+            alt="card2-img"
+          />
+          <h1 class="text-white my-10 text-4xl md:text-5xl">Market analysis</h1>
+          <p class="max-w-[70%] text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi
+            laudantium excepturi eaque iste itaque vero officia nostrum quam.
+            Ad?
+          </p>
+        </div>
+
+        <!-- card-3 -->
+
+        <div
+          class="w-full md:w-[30%] h-[65%] md:h-[75%] bg-[#202324] pl-10 pb-10 md:rounded-lg overflow-hidden"
+        >
+          <img
+            class="h-[50%] w-full md:rounded-tr-lg"
+            src="./media/card3-img.png"
+            alt="card3-img"
+          />
+          <h1 class="text-white my-10 text-4xl md:text-5xl">Enhanced tools</h1>
+          <p class="max-w-[70%] text-slate-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi
+            laudantium excepturi eaque iste itaque vero officia nostrum quam.
+            Ad?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- features offered section starts here -->
+
+    <div class="w-screen md:h-[65vh] p-6 md:pt-10">
+      <div class="flex flex-col md:flex-row gap-4 md:gap-10 md:h-1/2 w-full">
+        <div class="flex gap-4 w-full md:w-1/2 mt-6 md:mt-0">
+          <img
+            class="w-16 h-16 rounded-full"
+            src="./media/offer-1.png"
+            alt="offer-1"
+          />
+          <div>
+            <h1 class="text-xl md:text-3xl font-semibold">Expert service</h1>
+            <p class="my-4 md:my-6 max-w-[80%] text-slate-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              facere consectetur corrupti, in nostrum reiciendis necessitatibus
+              nam et nemo reprehenderit.
+            </p>
+            <p class="text-slate-400">LEARN MORE --&gt;</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 w-full md:w-1/2 mt-6 md:mt-0">
+          <img
+            class="w-16 h-16 rounded-full"
+            src="./media/offer-2.png"
+            alt="offer-2"
+          />
+          <div>
+            <h1 class="text-xl md:text-3xl font-semibold">Fully regulated</h1>
+            <p class="my-4 md:my-6 max-w-[80%] text-slate-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              facere consectetur corrupti, in nostrum reiciendis necessitatibus
+              nam et nemo reprehenderit.
+            </p>
+            <p class="text-slate-400">LEARN MORE --&gt;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-4 md:gap-10 md:h-1/2 w-full">
+        <div class="flex gap-4 w-full md:w-1/2 mt-6 md:mt-0">
+          <img
+            class="w-16 h-16 rounded-full"
+            src="./media/offer-3.png"
+            alt="offer-3"
+          />
+          <div>
+            <h1 class="text-xl md:text-3xl font-semibold">
+              Financial strength
+            </h1>
+            <p class="my-4 md:my-6 max-w-[80%] text-slate-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              facere consectetur corrupti, in nostrum reiciendis necessitatibus
+              nam et nemo reprehenderit.
+            </p>
+            <p class="text-slate-400">LEARN MORE --&gt;</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 w-full md:w-1/2 mt-6 md:mt-0">
+          <img
+            class="w-16 h-16 rounded-full"
+            src="./media/offer-4.png"
+            alt="offer-4"
+          />
+          <div>
+            <h1 class="text-xl md:text-3xl font-semibold">
+              Integrated Support
+            </h1>
+            <p class="my-4 md:my-6 max-w-[80%] text-slate-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              facere consectetur corrupti, in nostrum reiciendis necessitatibus
+              nam et nemo reprehenderit.
+            </p>
+            <p class="text-slate-400">LEARN MORE --&gt;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- steps to get started section starts  -->
+
+    <div class="w-full px-2 md:px-6 py-4 md:py-8 animate-pulse">
+      <fieldset
+        class="pt-8 pb-4 flex flex-col md:flex-row gap-6 md:gap-0 md:justify-around border-2 border-orange-600 text-center rounded-md"
+      >
+        <legend class="font-bold text-orange-600 text-xl px-4">
+          Simple steps to start trade
+        </legend>
+
+        <div>
+          <i
+            class="fa-solid fa-1 bg-white border-[3px] text-orange-600 border-orange-600 py-5 rounded-full px-6 mb-3"
+          ></i>
+          <br />
+          <p class="text-slate-500">Register account</p>
+        </div>
+
+        <div>
+          <i
+            class="fa-solid fa-2 bg-white border-[3px] text-orange-600 border-orange-600 py-5 rounded-full px-6 mb-3"
+          ></i>
+          <br />
+          <p class="text-slate-500">Fund your account</p>
+        </div>
+
+        <div>
+          <i
+            class="fa-solid fa-3 bg-white border-[3px] text-orange-600 border-orange-600 py-5 rounded-full px-6 mb-3"
+          ></i>
+          <br />
+          <p class="text-slate-500">Start your trade</p>
+        </div>
+      </fieldset>
+    </div>
+
+    <!-- steps to get started section ends  -->
+
+    <!-- news articles section starts -->
+
+    <div class="w-screen px-4 py-4 md:py-10">
+      <h1 class="font-bold pb-10 text-4xl md:text-5xl">
+        Stay ahead of the curve.
+      </h1>
+
+      <div class="flex justify-between flex-col md:flex-row">
+        <!-- card-1 -->
+
+        <div class="md:w-4/12 w-full my-5 md:my-0 flex">
+          <div
+            class="news flex gap-4 justify-start items-center rotate-90 mt-0 md:ml-[-120px] ml-[-100px]"
+          >
+            <p class="text-orange-600 font-semibold">NEWS</p>
+            <div class="md:w-48 w-40 h-[2px] bg-orange-600"></div>
+          </div>
+
+          <div class="content md:ml-[-100px] ml-[-80px] max-w-[75%]">
+            <h3 class="font-semibold text-2xl md:text-3xl">
+              Wall Street cautious on 'frothy' stocks, warn bitcoin bubble.
+            </h3>
+            <p class="py-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Praesentium harum enim at exercitationem quidem possimus...
+            </p>
+            <button class="font-bold md:text-lg">Read more -&gt;</button>
+          </div>
+        </div>
+
+        <!-- card-2 -->
+
+        <div class="md:w-4/12 w-full my-5 md:my-0 flex">
+          <div
+            class="news flex gap-4 justify-start items-center rotate-90 mt-0 md:ml-[-120px] ml-[-100px]"
+          >
+            <p class="text-orange-600 font-semibold">NEWS</p>
+            <div class="md:w-48 w-40 h-[2px] bg-orange-600"></div>
+          </div>
+
+          <div class="content md:ml-[-100px] ml-[-80px] max-w-[75%]">
+            <h3 class="font-semibold text-2xl md:text-3xl">
+              Will AUD/USD Hit 0.8000 In The Foreseeable Future?
+            </h3>
+            <p class="py-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Praesentium harum enim at exercitationem quidem possimus...
+            </p>
+            <button class="font-bold md:text-lg">Read more -&gt;</button>
+          </div>
+        </div>
+
+        <!-- card-3 -->
+
+        <div class="md:w-4/12 w-full my-5 md:my-0 flex">
+          <div
+            class="news flex gap-4 justify-start items-center rotate-90 mt-0 md:ml-[-120px] ml-[-100px]"
+          >
+            <p class="text-orange-600 font-semibold">NEWS</p>
+            <div class="md:w-48 w-40 h-[2px] bg-orange-600"></div>
+          </div>
+
+          <div class="content md:ml-[-100px] ml-[-80px] max-w-[75%]">
+            <h3 class="font-semibold text-2xl md:text-3xl">
+              How Can You Use Volatility to Your Advantage
+            </h3>
+            <p class="py-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Praesentium harum enim at exercitationem quidem possimus...
+            </p>
+            <button class="font-bold md:text-lg">Read more -&gt;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- news articles section ends -->
+
+    <!-- footer section starts  -->
+
+    <div
+      class="w-screen flex flex-col md:flex-row py-8 px-6 justify-between bg-[#202324]"
+    >
+      <div class="flex gap-2 items-center h-[40px]">
+        <img src="./media/logo-img.png" alt="logo-img" />
+        <h1 class="text-white font-semibold text-2xl">LIQUID</h1>
+      </div>
+
+      <div class="md:w-[55%] md:mr-20 md:flex justify-around">
+        <div class="mt-14 md:mt-0">
+          <h3 class="font-semibold text-white pb-4">MARKETS</h3>
+          <p class="text-slate-500 pt-4">Web Platform</p>
+          <p class="text-slate-500 pt-4">Trading Apps</p>
+          <p class="text-slate-500 pt-4">Meta Trader 5</p>
+          <p class="text-slate-500 pt-4">Compare Features</p>
+        </div>
+
+        <div class="mt-14 md:mt-0">
+          <h3 class="font-semibold text-white pb-4">ACCOUNT TYPES</h3>
+          <p class="text-slate-500 pt-4">Demo account</p>
+          <p class="text-slate-500 pt-4">Standard account</p>
+          <p class="text-slate-500 pt-4">ECN account</p>
+          <p class="text-slate-500 pt-4">Islamic account</p>
+        </div>
+
+        <div class="mt-14 md:mt-0">
+          <h3 class="font-semibold text-white pb-4">LEARN TO TRADE</h3>
+          <p class="text-slate-500 pt-4">News and trade ideas</p>
+          <p class="text-slate-500 pt-4">Trading strategy</p>
+          <p class="text-slate-500 pt-4">Forex trading course</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
